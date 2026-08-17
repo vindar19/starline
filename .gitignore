@@ -161,4 +161,21 @@ cython_debug/
 #.idea/
 
 *.safetensors
-*.json
+# Starline local model files
+*.safetensors
+*.ckpt
+*.pth
+*.bin
+*.onnx
+*.safetensors.chunks/
+*.chunks/
+
+# Local model/cache directories
+.cache/
+huggingface_cache/
+
+# Local temporary files
+tmp.png
+
+# Generated test images
+controlnet/lineart/test*.png
